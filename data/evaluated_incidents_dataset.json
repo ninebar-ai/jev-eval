@@ -1,0 +1,1062 @@
+[
+  {
+    "incident_id": 1,
+    "incident_type": "standard",
+    "element_type": "5G_BASE_STATION",
+    "element_id": "5G-792",
+    "region": "Delhi",
+    "status": "DEGRADED",
+    "users_affected": 1,
+    "packet_loss_pct": 16.5,
+    "latency_ms": 248,
+    "duration_min": 36,
+    "cause": "software_crash",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "RAN",
+      "escalate": "YES",
+      "action": "REMOTE_RESTART"
+    }
+  },
+  {
+    "incident_id": 2,
+    "incident_type": "standard",
+    "element_type": "BACKHAUL_LINK",
+    "element_id": "BACKHAUL-384",
+    "region": "Mumbai",
+    "status": "DOWN",
+    "users_affected": 1001,
+    "packet_loss_pct": 25.3,
+    "latency_ms": 578,
+    "duration_min": 30,
+    "cause": "hardware_fault",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "TRANSPORT",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 3,
+    "incident_type": "standard",
+    "element_type": "5G_BASE_STATION",
+    "element_id": "5G-489",
+    "region": "Delhi",
+    "status": "DEGRADED",
+    "users_affected": 15,
+    "packet_loss_pct": 12.9,
+    "latency_ms": 364,
+    "duration_min": 27,
+    "cause": "config_error",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "RAN",
+      "escalate": "NO",
+      "action": "ROLLBACK_CONFIG"
+    }
+  },
+  {
+    "incident_id": 4,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-180",
+    "region": "Kolkata",
+    "status": "DEGRADED",
+    "users_affected": 2955,
+    "packet_loss_pct": 43.8,
+    "latency_ms": 569,
+    "duration_min": 32,
+    "cause": "fiber_cut",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "TRANSPORT",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 5,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-564",
+    "region": "Hyderabad",
+    "status": "DOWN",
+    "users_affected": 5000,
+    "packet_loss_pct": 10.1,
+    "latency_ms": 258,
+    "duration_min": 98,
+    "cause": "config_error",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "CRITICAL",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "ROLLBACK_CONFIG"
+    }
+  },
+  {
+    "incident_id": 6,
+    "incident_type": "standard",
+    "element_type": "BACKHAUL_LINK",
+    "element_id": "BACKHAUL-750",
+    "region": "Chennai",
+    "status": "DOWN",
+    "users_affected": 761,
+    "packet_loss_pct": 42.1,
+    "latency_ms": 683,
+    "duration_min": 19,
+    "cause": "congestion",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "TRANSPORT",
+      "escalate": "YES",
+      "action": "REROUTE_TRAFFIC"
+    }
+  },
+  {
+    "incident_id": 7,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-963",
+    "region": "Mumbai",
+    "status": "DOWN",
+    "users_affected": 14,
+    "packet_loss_pct": 55.5,
+    "latency_ms": 590,
+    "duration_min": 57,
+    "cause": "software_crash",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "CRITICAL",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "REMOTE_RESTART"
+    }
+  },
+  {
+    "incident_id": 8,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-317",
+    "region": "Ahmedabad",
+    "status": "DEGRADED",
+    "users_affected": 53,
+    "packet_loss_pct": 4.0,
+    "latency_ms": 600,
+    "duration_min": 225,
+    "cause": "hardware_fault",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "SCHEDULE_MAINTENANCE"
+    }
+  },
+  {
+    "incident_id": 9,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-864",
+    "region": "Pune",
+    "status": "DEGRADED",
+    "users_affected": 13,
+    "packet_loss_pct": 14.8,
+    "latency_ms": 594,
+    "duration_min": 138,
+    "cause": "config_error",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "ROLLBACK_CONFIG"
+    }
+  },
+  {
+    "incident_id": 10,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-710",
+    "region": "Delhi",
+    "status": "DEGRADED",
+    "users_affected": 86,
+    "packet_loss_pct": 9.9,
+    "latency_ms": 176,
+    "duration_min": 175,
+    "cause": "power_failure",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "LOW",
+      "responsible": "FACILITIES",
+      "escalate": "NO",
+      "action": "MONITOR"
+    }
+  },
+  {
+    "incident_id": 11,
+    "incident_type": "standard",
+    "element_type": "5G_BASE_STATION",
+    "element_id": "5G-796",
+    "region": "Delhi",
+    "status": "DEGRADED",
+    "users_affected": 102,
+    "packet_loss_pct": 15.1,
+    "latency_ms": 586,
+    "duration_min": 221,
+    "cause": "hardware_fault",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "RAN",
+      "escalate": "YES",
+      "action": "SCHEDULE_MAINTENANCE"
+    }
+  },
+  {
+    "incident_id": 12,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-612",
+    "region": "Chennai",
+    "status": "DOWN",
+    "users_affected": 18,
+    "packet_loss_pct": 9.5,
+    "latency_ms": 23,
+    "duration_min": 185,
+    "cause": "hardware_fault",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "CRITICAL",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 13,
+    "incident_type": "standard",
+    "element_type": "5G_BASE_STATION",
+    "element_id": "5G-713",
+    "region": "Hyderabad",
+    "status": "DEGRADED",
+    "users_affected": 4999,
+    "packet_loss_pct": 10.1,
+    "latency_ms": 572,
+    "duration_min": 136,
+    "cause": "software_crash",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "RAN",
+      "escalate": "YES",
+      "action": "REMOTE_RESTART"
+    }
+  },
+  {
+    "incident_id": 14,
+    "incident_type": "standard",
+    "element_type": "5G_BASE_STATION",
+    "element_id": "5G-878",
+    "region": "Chennai",
+    "status": "DOWN",
+    "users_affected": 300,
+    "packet_loss_pct": 10.0,
+    "latency_ms": 100,
+    "duration_min": 30,
+    "cause": "hardware_fault",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "RAN",
+      "escalate": "YES",
+      "action": "SCHEDULE_MAINTENANCE"
+    }
+  },
+  {
+    "incident_id": 15,
+    "incident_type": "standard",
+    "element_type": "GATEWAY",
+    "element_id": "GATEWAY-652",
+    "region": "Bengaluru",
+    "status": "DEGRADED",
+    "users_affected": 231,
+    "packet_loss_pct": 15.9,
+    "latency_ms": 641,
+    "duration_min": 109,
+    "cause": "power_failure",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "FACILITIES",
+      "escalate": "YES",
+      "action": "SCHEDULE_MAINTENANCE"
+    }
+  },
+  {
+    "incident_id": 16,
+    "incident_type": "standard",
+    "element_type": "5G_BASE_STATION",
+    "element_id": "5G-353",
+    "region": "Bengaluru",
+    "status": "DOWN",
+    "users_affected": 622,
+    "packet_loss_pct": 26.3,
+    "latency_ms": 549,
+    "duration_min": 116,
+    "cause": "config_error",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "RAN",
+      "escalate": "YES",
+      "action": "ROLLBACK_CONFIG"
+    }
+  },
+  {
+    "incident_id": 17,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-172",
+    "region": "Bengaluru",
+    "status": "DEGRADED",
+    "users_affected": 4999,
+    "packet_loss_pct": 9.9,
+    "latency_ms": 80,
+    "duration_min": 29,
+    "cause": "hardware_fault",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 18,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-348",
+    "region": "Ahmedabad",
+    "status": "DEGRADED",
+    "users_affected": 208,
+    "packet_loss_pct": 43.4,
+    "latency_ms": 604,
+    "duration_min": 148,
+    "cause": "congestion",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "IP_ROUTING",
+      "escalate": "YES",
+      "action": "REROUTE_TRAFFIC"
+    }
+  },
+  {
+    "incident_id": 19,
+    "incident_type": "standard",
+    "element_type": "5G_BASE_STATION",
+    "element_id": "5G-162",
+    "region": "Pune",
+    "status": "DEGRADED",
+    "users_affected": 301,
+    "packet_loss_pct": 29.9,
+    "latency_ms": 75,
+    "duration_min": 166,
+    "cause": "software_crash",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "RAN",
+      "escalate": "YES",
+      "action": "REMOTE_RESTART"
+    }
+  },
+  {
+    "incident_id": 20,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-927",
+    "region": "Delhi",
+    "status": "DOWN",
+    "users_affected": 1000,
+    "packet_loss_pct": 10.0,
+    "latency_ms": 249,
+    "duration_min": 20,
+    "cause": "hardware_fault",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "IP_ROUTING",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 21,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-597",
+    "region": "Ahmedabad",
+    "status": "DOWN",
+    "users_affected": 3934,
+    "packet_loss_pct": 58.1,
+    "latency_ms": 262,
+    "duration_min": 43,
+    "cause": "power_failure",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "FACILITIES",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 22,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-392",
+    "region": "Pune",
+    "status": "DEGRADED",
+    "users_affected": 5,
+    "packet_loss_pct": 0.1,
+    "latency_ms": 419,
+    "duration_min": 68,
+    "cause": "congestion",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "IP_ROUTING",
+      "escalate": "YES",
+      "action": "REROUTE_TRAFFIC"
+    }
+  },
+  {
+    "incident_id": 23,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-614",
+    "region": "Chennai",
+    "status": "DOWN",
+    "users_affected": 99,
+    "packet_loss_pct": 30.0,
+    "latency_ms": 250,
+    "duration_min": 31,
+    "cause": "fiber_cut",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "TRANSPORT",
+      "escalate": "YES",
+      "action": "SCHEDULE_MAINTENANCE"
+    }
+  },
+  {
+    "incident_id": 24,
+    "incident_type": "standard",
+    "element_type": "5G_BASE_STATION",
+    "element_id": "5G-734",
+    "region": "Delhi",
+    "status": "DEGRADED",
+    "users_affected": 4999,
+    "packet_loss_pct": 10.0,
+    "latency_ms": 251,
+    "duration_min": 31,
+    "cause": "hardware_fault",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "RAN",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 25,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-344",
+    "region": "Kolkata",
+    "status": "DEGRADED",
+    "users_affected": 176,
+    "packet_loss_pct": 56.1,
+    "latency_ms": 229,
+    "duration_min": 172,
+    "cause": "congestion",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "REROUTE_TRAFFIC"
+    }
+  },
+  {
+    "incident_id": 26,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-736",
+    "region": "Delhi",
+    "status": "DOWN",
+    "users_affected": 19,
+    "packet_loss_pct": 19.0,
+    "latency_ms": 94,
+    "duration_min": 3,
+    "cause": "fiber_cut",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "TRANSPORT",
+      "escalate": "NO",
+      "action": "SCHEDULE_MAINTENANCE"
+    }
+  },
+  {
+    "incident_id": 27,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-726",
+    "region": "Mumbai",
+    "status": "DEGRADED",
+    "users_affected": 301,
+    "packet_loss_pct": 39.6,
+    "latency_ms": 249,
+    "duration_min": 31,
+    "cause": "hardware_fault",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 28,
+    "incident_type": "standard",
+    "element_type": "GATEWAY",
+    "element_id": "GATEWAY-803",
+    "region": "Kolkata",
+    "status": "DEGRADED",
+    "users_affected": 10,
+    "packet_loss_pct": 33.4,
+    "latency_ms": 250,
+    "duration_min": 88,
+    "cause": "config_error",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "ROLLBACK_CONFIG"
+    }
+  },
+  {
+    "incident_id": 29,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-145",
+    "region": "Mumbai",
+    "status": "DEGRADED",
+    "users_affected": 4347,
+    "packet_loss_pct": 5.5,
+    "latency_ms": 453,
+    "duration_min": 213,
+    "cause": "congestion",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "REROUTE_TRAFFIC"
+    }
+  },
+  {
+    "incident_id": 30,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-674",
+    "region": "Mumbai",
+    "status": "DOWN",
+    "users_affected": 13,
+    "packet_loss_pct": 44.5,
+    "latency_ms": 584,
+    "duration_min": 181,
+    "cause": "software_crash",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "IP_ROUTING",
+      "escalate": "YES",
+      "action": "REMOTE_RESTART"
+    }
+  },
+  {
+    "incident_id": 31,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-696",
+    "region": "Chennai",
+    "status": "DEGRADED",
+    "users_affected": 936,
+    "packet_loss_pct": 8.9,
+    "latency_ms": 56,
+    "duration_min": 214,
+    "cause": "congestion",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "REROUTE_TRAFFIC"
+    }
+  },
+  {
+    "incident_id": 32,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-735",
+    "region": "Chennai",
+    "status": "DOWN",
+    "users_affected": 99,
+    "packet_loss_pct": 9.5,
+    "latency_ms": 249,
+    "duration_min": 31,
+    "cause": "congestion",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "LOW",
+      "responsible": "IP_ROUTING",
+      "escalate": "NO",
+      "action": "MONITOR"
+    }
+  },
+  {
+    "incident_id": 33,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-901",
+    "region": "Pune",
+    "status": "DOWN",
+    "users_affected": 3064,
+    "packet_loss_pct": 52.9,
+    "latency_ms": 45,
+    "duration_min": 46,
+    "cause": "config_error",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "CRITICAL",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "ROLLBACK_CONFIG"
+    }
+  },
+  {
+    "incident_id": 34,
+    "incident_type": "standard",
+    "element_type": "GATEWAY",
+    "element_id": "GATEWAY-124",
+    "region": "Bengaluru",
+    "status": "DEGRADED",
+    "users_affected": 28,
+    "packet_loss_pct": 29.9,
+    "latency_ms": 250,
+    "duration_min": 29,
+    "cause": "config_error",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "CORE",
+      "escalate": "NO",
+      "action": "ROLLBACK_CONFIG"
+    }
+  },
+  {
+    "incident_id": 35,
+    "incident_type": "standard",
+    "element_type": "5G_BASE_STATION",
+    "element_id": "5G-998",
+    "region": "Kolkata",
+    "status": "DOWN",
+    "users_affected": 300,
+    "packet_loss_pct": 30.0,
+    "latency_ms": 251,
+    "duration_min": 29,
+    "cause": "fiber_cut",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "TRANSPORT",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 36,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-546",
+    "region": "Delhi",
+    "status": "DEGRADED",
+    "users_affected": 13,
+    "packet_loss_pct": 6.5,
+    "latency_ms": 464,
+    "duration_min": 89,
+    "cause": "fiber_cut",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "TRANSPORT",
+      "escalate": "YES",
+      "action": "SCHEDULE_MAINTENANCE"
+    }
+  },
+  {
+    "incident_id": 37,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-738",
+    "region": "Hyderabad",
+    "status": "DOWN",
+    "users_affected": 999,
+    "packet_loss_pct": 30.0,
+    "latency_ms": 221,
+    "duration_min": 29,
+    "cause": "hardware_fault",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "CRITICAL",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 38,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-667",
+    "region": "Chennai",
+    "status": "DOWN",
+    "users_affected": 151,
+    "packet_loss_pct": 40.0,
+    "latency_ms": 354,
+    "duration_min": 104,
+    "cause": "power_failure",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "CRITICAL",
+      "responsible": "FACILITIES",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 39,
+    "incident_type": "standard",
+    "element_type": "BACKHAUL_LINK",
+    "element_id": "BACKHAUL-408",
+    "region": "Pune",
+    "status": "DOWN",
+    "users_affected": 42,
+    "packet_loss_pct": 44.9,
+    "latency_ms": 198,
+    "duration_min": 158,
+    "cause": "config_error",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "TRANSPORT",
+      "escalate": "YES",
+      "action": "ROLLBACK_CONFIG"
+    }
+  },
+  {
+    "incident_id": 40,
+    "incident_type": "standard",
+    "element_type": "GATEWAY",
+    "element_id": "GATEWAY-774",
+    "region": "Delhi",
+    "status": "DEGRADED",
+    "users_affected": 4999,
+    "packet_loss_pct": 14.5,
+    "latency_ms": 251,
+    "duration_min": 30,
+    "cause": "fiber_cut",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "TRANSPORT",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 41,
+    "incident_type": "standard",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "CORE-330",
+    "region": "Bengaluru",
+    "status": "DOWN",
+    "users_affected": 460,
+    "packet_loss_pct": 5.6,
+    "latency_ms": 260,
+    "duration_min": 173,
+    "cause": "software_crash",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "CRITICAL",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "REMOTE_RESTART"
+    }
+  },
+  {
+    "incident_id": 42,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-509",
+    "region": "Bengaluru",
+    "status": "DOWN",
+    "users_affected": 210,
+    "packet_loss_pct": 20.5,
+    "latency_ms": 219,
+    "duration_min": 99,
+    "cause": "hardware_fault",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "IP_ROUTING",
+      "escalate": "YES",
+      "action": "SCHEDULE_MAINTENANCE"
+    }
+  },
+  {
+    "incident_id": 43,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-324",
+    "region": "Chennai",
+    "status": "DEGRADED",
+    "users_affected": 6893,
+    "packet_loss_pct": 51.6,
+    "latency_ms": 129,
+    "duration_min": 200,
+    "cause": "software_crash",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "IP_ROUTING",
+      "escalate": "YES",
+      "action": "REMOTE_RESTART"
+    }
+  },
+  {
+    "incident_id": 44,
+    "incident_type": "standard",
+    "element_type": "ROUTER",
+    "element_id": "ROUTER-783",
+    "region": "Hyderabad",
+    "status": "DEGRADED",
+    "users_affected": 8812,
+    "packet_loss_pct": 7.3,
+    "latency_ms": 156,
+    "duration_min": 206,
+    "cause": "fiber_cut",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "TRANSPORT",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 45,
+    "incident_type": "standard",
+    "element_type": "GATEWAY",
+    "element_id": "GATEWAY-861",
+    "region": "Ahmedabad",
+    "status": "DEGRADED",
+    "users_affected": 6849,
+    "packet_loss_pct": 25.6,
+    "latency_ms": 581,
+    "duration_min": 115,
+    "cause": "config_error",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "ROLLBACK_CONFIG"
+    }
+  },
+  {
+    "incident_id": 46,
+    "incident_type": "standard",
+    "element_type": "GATEWAY",
+    "element_id": "GATEWAY-381",
+    "region": "Ahmedabad",
+    "status": "DOWN",
+    "users_affected": 4087,
+    "packet_loss_pct": 16.6,
+    "latency_ms": 553,
+    "duration_min": 125,
+    "cause": "hardware_fault",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "CORE",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 47,
+    "incident_type": "standard",
+    "element_type": "5G_BASE_STATION",
+    "element_id": "5G-524",
+    "region": "Pune",
+    "status": "DEGRADED",
+    "users_affected": 301,
+    "packet_loss_pct": 3.6,
+    "latency_ms": 250,
+    "duration_min": 55,
+    "cause": "fiber_cut",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "TRANSPORT",
+      "escalate": "YES",
+      "action": "SCHEDULE_MAINTENANCE"
+    }
+  },
+  {
+    "incident_id": 48,
+    "incident_type": "standard",
+    "element_type": "BACKHAUL_LINK",
+    "element_id": "BACKHAUL-812",
+    "region": "Mumbai",
+    "status": "DEGRADED",
+    "users_affected": 1,
+    "packet_loss_pct": 50.0,
+    "latency_ms": 418,
+    "duration_min": 232,
+    "cause": "power_failure",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "FACILITIES",
+      "escalate": "YES",
+      "action": "SCHEDULE_MAINTENANCE"
+    }
+  },
+  {
+    "incident_id": 49,
+    "incident_type": "standard",
+    "element_type": "GATEWAY",
+    "element_id": "GATEWAY-599",
+    "region": "Bengaluru",
+    "status": "DEGRADED",
+    "users_affected": 999,
+    "packet_loss_pct": 42.9,
+    "latency_ms": 251,
+    "duration_min": 155,
+    "cause": "power_failure",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "HIGH",
+      "responsible": "FACILITIES",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  },
+  {
+    "incident_id": 50,
+    "incident_type": "standard",
+    "element_type": "GATEWAY",
+    "element_id": "GATEWAY-960",
+    "region": "Ahmedabad",
+    "status": "DOWN",
+    "users_affected": 46,
+    "packet_loss_pct": 40.1,
+    "latency_ms": 434,
+    "duration_min": 186,
+    "cause": "fiber_cut",
+    "operator_notes": "",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "TRANSPORT",
+      "escalate": "YES",
+      "action": "SCHEDULE_MAINTENANCE"
+    }
+  },
+  {
+    "incident_id": 1000,
+    "incident_type": "complex",
+    "element_type": "5G_BASE_STATION",
+    "element_id": "C-1000",
+    "region": "Mumbai",
+    "status": "DEGRADED",
+    "users_affected": 95,
+    "packet_loss_pct": 8.5,
+    "latency_ms": 240,
+    "duration_min": 45,
+    "cause": "software_crash",
+    "operator_notes": "Engineers on-site noted that although official dashboards show 95 active user sessions, a local festival has gathered 2000+ unregistered standby users near the cell tower waiting for reconnection. Major congestion is imminent.",
+    "ground_truth": {
+      "severity": "LOW",
+      "responsible": "RAN",
+      "escalate": "NO",
+      "action": "MONITOR"
+    }
+  },
+  {
+    "incident_id": 1001,
+    "incident_type": "complex",
+    "element_type": "ROUTER",
+    "element_id": "C-1001",
+    "region": "Mumbai",
+    "status": "DOWN",
+    "users_affected": 150,
+    "packet_loss_pct": 15.0,
+    "latency_ms": 260,
+    "duration_min": 15,
+    "cause": "config_error",
+    "operator_notes": "An automated deployment script pushed a faulty routing table. However, backup fiber routes are carrying the load successfully, reducing actual performance impact to minimal levels. Ignore raw metrics.",
+    "ground_truth": {
+      "severity": "MEDIUM",
+      "responsible": "IP_ROUTING",
+      "escalate": "NO",
+      "action": "ROLLBACK_CONFIG"
+    }
+  },
+  {
+    "incident_id": 1002,
+    "incident_type": "complex",
+    "element_type": "CORE_COMPONENT",
+    "element_id": "C-1002",
+    "region": "Mumbai",
+    "status": "DOWN",
+    "users_affected": 6000,
+    "packet_loss_pct": 95.0,
+    "latency_ms": 1000,
+    "duration_min": 120,
+    "cause": "power_failure",
+    "operator_notes": "CRITICAL ALERT: Primary generator tripped. Backup batteries are failing. However, the system is scheduled for decommissioning in exactly 5 minutes, and all traffic has already been fully migrated to CORE-02.",
+    "ground_truth": {
+      "severity": "CRITICAL",
+      "responsible": "FACILITIES",
+      "escalate": "YES",
+      "action": "DISPATCH_ENGINEER"
+    }
+  }
+]
